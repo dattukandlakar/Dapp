@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.margin{
+  margin-top: 50px;
+}
+
+.color{
+  background-color: transparent;
+}
+.image {
+  background-image: url('../public/1340858.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  filter: blur(0.70x); /* Adjust the blur radius as needed */
+  backdrop-filter: inherit; /* If you want to apply the blur to the content behind the element (requires browser support) */
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center; /* Center the input box horizontally */
+  padding-right: 30vw;
+  /* color:beige */
+}
+.display{
+  justify-content: center;
+}
+.zikzak{
+  background: linear-gradient(135deg, transparent 15px, #FFD700 0) 0 0,
+  linear-gradient(225deg, transparent 15px, #FFD700 0) 0 0,
+  linear-gradient(1000deg, transparent 15px, #FFD700 0) 0 0,
+  linear-gradient(45deg, transparent 15px, #FFD700 0) 0 0;
+background-size: 30px 30px;
+color: transparent;
+/* -webkit-background-clip: text; */
+background-clip: text;
+text-align:center
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
